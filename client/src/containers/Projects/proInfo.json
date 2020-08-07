@@ -1,0 +1,8 @@
+[
+    {
+      "id": 1,
+      "project_name": "User Directory",
+      "image": "/images/userdirectory.png",
+      "about": "This project was created using React and the users were generated dynamically using a random user API",
+      "link": "https://kalebgarrison.github.io/gt-user-directory/"
+    },

@@ -24,12 +24,12 @@ function NavTabs() {
           to="/projects"
           className= "nav-link"
         >
-          Blog
+          Projects
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="/contacts"
           className= "nav-link"
         >
           Contact

@@ -4,7 +4,10 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NoMatch from './containers/NoMatch/NoMatch';
 import Home from "./containers/Home/Home"
 import NavBar from "./containers/NavBar/NavBar";
-
+import Footer from "./containers/Footer/Footer";
+import Contacts from "./containers/Contacts/Contacts";
+// import Contact from "./containers/Contact";
+import Projects from "./containers/Projects/Projects";
 
 function App() {
   useEffect(() =>{
@@ -24,12 +27,12 @@ function App() {
         <Switch>
       <NavBar />
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/about" component={About} />
-        <Route exact path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} /> */}
+        {/* <Route exact path="/about" component={About} /> */}
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path= "/contact" component={Contacts} />
          <Route component= {NoMatch}/>
         </Switch>
-      
+      <Footer />
     </Router>
     </div>
   );
