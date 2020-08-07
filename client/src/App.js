@@ -3,6 +3,7 @@ import Axios from "axios";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NoMatch from './containers/NoMatch/NoMatch';
 import Home from "./containers/Home/Home"
+import NavBar from "./containers/NavBar/NavBar";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-      
+      <NavBar />
         <Route exact path="/" component={Home} />
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/blog" component={Blog} />
