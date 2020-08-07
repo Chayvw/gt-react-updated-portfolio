@@ -1,8 +1,49 @@
 [
     {
       "id": 1,
-      "project_name": "User Directory",
-      "image": "/images/userdirectory.png",
-      "about": "This project was created using React and the users were generated dynamically using a random user API",
-      "link": "https://kalebgarrison.github.io/gt-user-directory/"
+      "project_name": "Dinmo",
+      "image": "Assets/DinMo.png",
+      "link": "https://github.com/Chayvw/gt-gp1-dinmo",
     },
+
+    {
+      "id": 2 ,
+      "project_name": "BootCamp Connect",
+      "image": "Assets/login_page.jpg",
+      "link": "https://github.com/Chayvw/gt-bootcamp-connect",
+    },
+
+    {
+        "id": 3 ,
+        "project_name": "Fitness Tracker ",
+        "image": "Assets/workout.png",
+        "link": "https://vast-basin-05553.herokuapp.com/?id=5f2210c2451d6d0017e75dce"
+       
+      },
+
+      {
+        "id": 4 ,
+        "project_name": "Budget Tracker",
+        "image": "Assets/budtrk.png",
+        "link": "https://lit-woodland-37229.herokuapp.com/"
+       
+      },
+
+      {
+        "id": 5,
+        "project_name": "Note Taker",
+        "image": "Assets/notetaker.png",
+        "link": "https://stormy-temple-66950.herokuapp.com/"
+       
+      },
+      {
+        "id": 6,
+        "project_name": "EmpDir",
+        "image": "Assets/empdirect-1.png",
+        "link": "https://github.com/Chayvw/employee-directory"
+       
+      }
+    
+
+
+]
