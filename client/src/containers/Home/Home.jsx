@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import NavTabs from '../NavBar/NavBar';
+// import Footer from '../Footer/Footer';
 // import { Link } from 'react-router-dom';
 
 class Home extends Component {
@@ -7,9 +9,10 @@ class Home extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-7">
+                        <NavTabs />
                         <h2>About Me</h2>
                         <hr />
-                        <img id="aboutme-img" src="assets/images/IMG_4240.jpg" alt="Chay Williams"></img>
+                        {/* <img id="aboutme-img" src= {require ("../../Assets/images/IMG_4240.jpg") } alt="Chay Williams"></img> */}
                         <p>
                             Thank you for visiting my web site. I am Full Stack Developer who utilizes outside of the box thinking to improve the user experience.
                             Recent graduate of the Georgia Tech Full Stack program where I got the opportunity to obtain skills in  responsive web design HTML, CSS, Javascript, jQuery, REST api, and making
