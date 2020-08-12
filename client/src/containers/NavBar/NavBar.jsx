@@ -2,40 +2,40 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function NavTabs() {
-  
 
-  return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <Link to="/" className= "nav-link">
-          Home
+
+    return (
+        <ul className="nav nav-tabs">
+            <li className="nav-item">
+                <Link to="/" className="nav-link">
+                    Home
         </Link>
-      </li>
-      {/* <li className="nav-item">
+            </li>
+            {/* <li className="nav-item">
         <Link
           to="/contact"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
           About
         </Link> */}
-      {/* </li> */}
-      <li className="nav-item">
-        <Link
-          to="/projects"
-          className= "nav-link"
-        >
-          Projects
+            {/* </li> */}
+            <li className="nav-item">
+                <Link
+                    to="/projects"
+                    className="nav-link"
+                >
+                    Projects
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contacts"
-          className= "nav-link"
-        >
-          Contact
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/contacts"
+                    className="nav-link"
+                >
+                    Contact
         </Link>
-      </li>
-      {/* <li className="nav-item">
+            </li>
+            {/* <li className="nav-item">
         <Link
           to="/contact/learn"
           className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
@@ -43,8 +43,8 @@ function NavTabs() {
           Learn
         </Link>
       </li> */}
-    </ul>
-  );
+        </ul>
+    );
 }
 
 export default NavTabs;
