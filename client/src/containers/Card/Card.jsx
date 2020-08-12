@@ -8,14 +8,9 @@ const Card = (props) => {
       </div>
       <div className="content">
         <ul>
-          {/* <li>
-            <strong>Name:</strong> {props.name}
-          </li>
+         
           <li>
-            <strong>Image:</strong> {props.image}
-          </li> */}
-          <li>
-            <strong>Deployed:</strong> <a href= {props.link} target ="_blank">{props.title}</a>
+            <strong>Deployed:</strong> <a href= {props.link} target ="_blank" rel="noopener noreferrer" >{props.title}</a>
           </li>
         </ul>
       </div>
